@@ -1,0 +1,489 @@
+Grille ouverte : /home/emip/Documents/Ecole/IA/Projet/bin/Release/Grilles/grille1 
+
+
+Nombre de cases noires : 16 
+Nombre de cases blanches : 19 
+Nombre de mots : 12 
+
+Case noire num 0 :
+	 - val_sup = 0 / val_inf = 0 
+	 - posX = 1 / posY = 0 
+	 - mot_sup : 0 case(s) : 
+	 - mot_inf : 0 case(s) : 
+
+Case noire num 1 :
+	 - val_sup = 0 / val_inf = 32 
+	 - posX = 2 / posY = 0 
+	 - mot_sup : 0 case(s) : 
+	 - mot_inf : 5 case(s) : case[2][1] -> case[2][2] -> case[2][3] -> case[2][4] -> case[2][5]
+
+Case noire num 2 :
+	 - val_sup = 0 / val_inf = 16 
+	 - posX = 3 / posY = 0 
+	 - mot_sup : 0 case(s) : 
+	 - mot_inf : 2 case(s) : case[3][1] -> case[3][2]
+
+Case noire num 3 :
+	 - val_sup = 0 / val_inf = 12 
+	 - posX = 4 / posY = 0 
+	 - mot_sup : 0 case(s) : 
+	 - mot_inf : 4 case(s) : case[4][1] -> case[4][2] -> case[4][3] -> case[4][4]
+
+Case noire num 4 :
+	 - val_sup = 0 / val_inf = 0 
+	 - posX = 5 / posY = 0 
+	 - mot_sup : 0 case(s) : 
+	 - mot_inf : 0 case(s) : 
+
+Case noire num 5 :
+	 - val_sup = 0 / val_inf = 0 
+	 - posX = 0 / posY = 1 
+	 - mot_sup : 0 case(s) : 
+	 - mot_inf : 0 case(s) : 
+
+Case noire num 6 :
+	 - val_sup = 23 / val_inf = 8 
+	 - posX = 1 / posY = 1 
+	 - mot_sup : 3 case(s) : case[2][1] -> case[3][1] -> case[4][1]
+	 - mot_inf : 3 case(s) : case[1][2] -> case[1][3] -> case[1][4]
+
+Case noire num 7 :
+	 - val_sup = 0 / val_inf = 7 
+	 - posX = 5 / posY = 1 
+	 - mot_sup : 0 case(s) : 
+	 - mot_inf : 3 case(s) : case[5][2] -> case[5][3] -> case[5][4]
+
+Case noire num 8 :
+	 - val_sup = 17 / val_inf = 0 
+	 - posX = 0 / posY = 2 
+	 - mot_sup : 5 case(s) : case[1][2] -> case[2][2] -> case[3][2] -> case[4][2] -> case[5][2]
+	 - mot_inf : 0 case(s) : 
+
+Case noire num 9 :
+	 - val_sup = 8 / val_inf = 0 
+	 - posX = 0 / posY = 3 
+	 - mot_sup : 2 case(s) : case[1][3] -> case[2][3]
+	 - mot_inf : 0 case(s) : 
+
+Case noire num 10 :
+	 - val_sup = 4 / val_inf = 6 
+	 - posX = 3 / posY = 3 
+	 - mot_sup : 2 case(s) : case[4][3] -> case[5][3]
+	 - mot_inf : 2 case(s) : case[3][4] -> case[3][5]
+
+Case noire num 11 :
+	 - val_sup = 15 / val_inf = 0 
+	 - posX = 0 / posY = 4 
+	 - mot_sup : 5 case(s) : case[1][4] -> case[2][4] -> case[3][4] -> case[4][4] -> case[5][4]
+	 - mot_inf : 0 case(s) : 
+
+Case noire num 12 :
+	 - val_sup = 0 / val_inf = 0 
+	 - posX = 0 / posY = 5 
+	 - mot_sup : 0 case(s) : 
+	 - mot_inf : 0 case(s) : 
+
+Case noire num 13 :
+	 - val_sup = 14 / val_inf = 0 
+	 - posX = 1 / posY = 5 
+	 - mot_sup : 2 case(s) : case[2][5] -> case[3][5]
+	 - mot_inf : 0 case(s) : 
+
+Case noire num 14 :
+	 - val_sup = 0 / val_inf = 0 
+	 - posX = 4 / posY = 5 
+	 - mot_sup : 0 case(s) : 
+	 - mot_inf : 0 case(s) : 
+
+Case noire num 15 :
+	 - val_sup = 0 / val_inf = 0 
+	 - posX = 5 / posY = 5 
+	 - mot_sup : 0 case(s) : 
+	 - mot_inf : 0 case(s) : 
+
+
+Position des cases Blanches : 
+ - Case blanche 0 : [2][1] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 1 6
+ - Case blanche 1 : [3][1] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 2 6
+ - Case blanche 2 : [4][1] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 3 6
+ - Case blanche 3 : [1][2] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 6 8
+ - Case blanche 4 : [2][2] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 1 8
+ - Case blanche 5 : [3][2] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 2 8
+ - Case blanche 6 : [4][2] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 3 8
+ - Case blanche 7 : [5][2] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 7 8
+ - Case blanche 8 : [1][3] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 6 9
+ - Case blanche 9 : [2][3] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 1 9
+ - Case blanche 10 : [4][3] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 3 10
+ - Case blanche 11 : [5][3] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 7 10
+ - Case blanche 12 : [1][4] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 6 11
+ - Case blanche 13 : [2][4] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 1 11
+ - Case blanche 14 : [3][4] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 10 11
+ - Case blanche 15 : [4][4] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 3 11
+ - Case blanche 16 : [5][4] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 7 11
+ - Case blanche 17 : [2][5] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 1 13
+ - Case blanche 18 : [3][5] 
+ 	 nbParents : 2 
+ 	 Case(s) noire(s) parent(s) : 10 13
+
+Domaine d0 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d1 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d2 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d3 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d4 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d5 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d6 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d7 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d8 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d9 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d10 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d11 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d12 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d13 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d14 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d15 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d16 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d17 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d18 = [9 8 7 6 5 4 3 2 1  ] 
+
+ FILTRAGE :
+
+Domaine d0 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d1 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d2 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d3 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d4 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d5 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d6 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d7 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d8 = [7 6 5 4 3 2 1  ] 
+Domaine d9 = [7 6 5 4 3 2 1  ] 
+Domaine d10 = [3 2 1  ] 
+Domaine d11 = [3 2 1  ] 
+Domaine d12 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d13 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d14 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d15 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d16 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d17 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d18 = [9 8 7 6 5 4 3 2 1  ] 
+
+ LANCEMENT DE BACKTRACK :
+
+ FIN DE BACKTRACK :
+
+Domaine d0 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d1 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d2 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d3 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d4 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d5 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d6 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d7 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d8 = [7 6 5 4 3 2 1  ] 
+Domaine d9 = [7 6 5 4 3 2 1  ] 
+Domaine d10 = [3 2 1  ] 
+Domaine d11 = [3 2 1  ] 
+Domaine d12 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d13 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d14 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d15 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d16 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d17 = [9 8 7 6 5 4 3 2 1  ] 
+Domaine d18 = [9 8 7 6 5 4 3 2 1  ] 
+caseBlanche[2][1] = 9, TAILLE de CSP->V = 18 TAILLE de CSP->A = 0 
+Valeur OK -> caseBlanche[2][1] = 9 
+caseBlanche[3][1] = 9, TAILLE de CSP->V = 17 TAILLE de CSP->A = 1 
+caseBlanche[3][1] = 8, TAILLE de CSP->V = 17 TAILLE de CSP->A = 1 
+Valeur OK -> caseBlanche[3][1] = 8 
+caseBlanche[4][1] = 9, TAILLE de CSP->V = 16 TAILLE de CSP->A = 2 
+caseBlanche[4][1] = 8, TAILLE de CSP->V = 16 TAILLE de CSP->A = 2 
+caseBlanche[4][1] = 7, TAILLE de CSP->V = 16 TAILLE de CSP->A = 2 
+caseBlanche[4][1] = 6, TAILLE de CSP->V = 16 TAILLE de CSP->A = 2 
+Valeur OK -> caseBlanche[4][1] = 6 
+caseBlanche[1][2] = 9, TAILLE de CSP->V = 15 TAILLE de CSP->A = 3 
+Valeur OK -> caseBlanche[1][2] = 9 
+caseBlanche[2][2] = 9, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+caseBlanche[2][2] = 8, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 8 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 7, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 7 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 6, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 6 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 5, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 5 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 4, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 4 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 3, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 3 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 2, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 2 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 1, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 1 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+Pas de valeurs , --> RETOUR 
+caseBlanche[1][2] = 8, TAILLE de CSP->V = 15 TAILLE de CSP->A = 3 
+Valeur OK -> caseBlanche[1][2] = 8 
+caseBlanche[2][2] = 9, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+caseBlanche[2][2] = 8, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+caseBlanche[2][2] = 7, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 7 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 6, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 6 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 5, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 5 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 4, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 4 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 3, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 3 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 2, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 2 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 1, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 1 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+Pas de valeurs , --> RETOUR 
+caseBlanche[1][2] = 7, TAILLE de CSP->V = 15 TAILLE de CSP->A = 3 
+Valeur OK -> caseBlanche[1][2] = 7 
+caseBlanche[2][2] = 9, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+caseBlanche[2][2] = 8, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 8 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 7, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+caseBlanche[2][2] = 6, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 6 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 5, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 5 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 4, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 4 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 1, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+Pas de valeurs , --> RETOUR 
+caseBlanche[2][2] = 3, TAILLE de CSP->V = 14 TAILLE de CSP->A = 4 
+Valeur OK -> caseBlanche[2][2] = 3 
+caseBlanche[3][2] = 9, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 8, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 7, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 6, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 5, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 4, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 3, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 
+caseBlanche[3][2] = 2, TAILLE de CSP->V = 13 TAILLE de CSP->A = 5 

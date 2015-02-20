@@ -1,0 +1,19 @@
+CC := gcc
+SOURCES := main.c structures.c input.c outputG.c csp.c
+INCLUDES := structures.h input.h OutputG.h csp.h
+LIBS := -lm `sdl-config --libs` -lSDL -lSDL_ttf -lSDL_image
+CFLAGS := -g
+OBJS := $(SOURCES:.c=.o)
+
+all: programme
+
+programme: $(OBJS)
+	$(CC) $(CFLAGS) -o programme $(OBJS) $(LFLAGS) $(LIBS)
+	make clean
+
+.c.o:
+	$(CC) $(CFLAGS) $(INCLUDES) -c $<
+
+clean:
+	rm *.o
+	rm *.gch
